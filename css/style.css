@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@400;600&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 70%;
+    padding: 15px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container::before,
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Teko', sans-serif;
+    color: #FE7AA7;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 600;
+    border-bottom: 2px solid #f4f4f4;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.hover-hide {
+    color: #FE7AA7;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.hover-hide:hover {
+    color: #5E6EC7;
+}
+
+.hover-show {
+    color: #5E6EC7;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.hover-show:hover {
+    color: #FE7AA7;
+}
+
+a,
+p {
+    font-family: 'Teko', sans-serif;
+    font-size: 18px;
+}
+
+p {
+    margin: 20px 0px;
+}
+
+.buttons ul {
+    display: block;
+}
+
+.buttons ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.buttons ul li a {
+    color: #FFF;
+    background: #5E6EC7;
+    padding: 18px 40px;
+    transition: .4s;
+}
+
+.buttons ul li a:hover {
+    background: #FE7AA7;
+    box-shadow: 0px 60px 43px -49px rgba(94, 110, 199, 1);
+    -webkit-box-shadow: 0px 60px 43px -49px rgba(94, 110, 199, 1);
+    -moz-box-shadow: 0px 60px 43px -49px rgba(94, 110, 199, 1);
+}
+
+.buttons {
+    margin-top: 50px;
+    display: block;
+    height: 80px;
+}
+
+.objects {
+    border: 2px solid #5E6EC7;
+    padding: 30px;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    margin: 0 30px;
+    background: #FE7AA7;
+    display: inline-block;
+}
+
+.hover-effect {
+    border: 2px solid #FE7AA7;
+    padding: 30px;
+}
+
+.form-section {
+    margin-top: 36px;
+    border: 2px solid #5E6EC7;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.login-form {
+    background: #f4f4f4;
+    padding: 20px;
+    display: block;
+}
+
+.form-group {
+    padding: 10px;
+}
+
+input {
+    font-family: 'Teko', sans-serif;
+    font-size: 18px;
+    color: #FE7AA7;
+    border: none;
+}
+
+input:focus {
+    outline: 0;
+    border-bottom: 1px solid #FE7AA7;
+}
+
+input.form-control {
+    width: 500px;
+    padding: 10px;
+}
+
+.btn {
+    font-family: 'Teko', sans-serif;
+    font-size: 18px;
+    color: #FFF;
+    background: #5E6EC7;
+    padding: 18px 40px;
+    border: none;
+    margin: 20px 0;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.success-note {
+    background: #f4f4f4;
+    padding: 100px 200px;
+    display: none;
+}
+
+.dblclick {
+    font-family: 'Teko', sans-serif;
+    font-size: 18px;
+    color: #5E6EC7;
+    cursor: pointer;
+}
